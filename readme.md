@@ -11,7 +11,7 @@ Majority of my time went in trying to deploy this API which ended up in fruitles
 
 2) The Web Interface is simple. It just takes input values from users namely title, filter, topN and websites to consider it from. This runs on port 3000
 <img width="1028" alt="web_interface" src="https://github.com/amanrubey/durianpay_assignment/assets/58990863/72fa7f7c-cd61-49a7-9ca2-918a076907a6">
-
+Result after entering the values. (only the title field is mandatory rest fields have default values if none are selected )
 <img width="1439" alt="result_after_inputing" src="https://github.com/amanrubey/durianpay_assignment/assets/58990863/079877a9-b6c1-4292-b566-4909929250f3">
 
 
