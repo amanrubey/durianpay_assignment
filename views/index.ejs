@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/do" method="POST">
+        <input type="text" name="title" placeholder="Search">
+        <select name="filter" id = "car">
+            <option name="filter"  value="hp">Highest Price</option>
+            <option name="filter" value="lp">Lowest Price</option>
+            <option name="filter" value="hreview">Highest Reviews</option>
+            <option name="filter" value="hrating">Highest Ratings</option>
+        </select>
+        <input type="number" name="topN" placeholder="Top N">
+        <select name="comparison_websites" multiple="multiple" >
+            <!-- <option value="" selected disabled>Select one or more</option> -->
+            <option value="flipkart">Flipkart</option>
+            <option value="snapdeal">Snapdeal</option>
+            <option value="shopclues">Shopclues</option>
+        </select>
+        <button type="submit">Go!</button>
+    </form>
+</body>
+
+</html>
