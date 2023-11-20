@@ -7,7 +7,7 @@ So an example url to hit the API will be http://localhost:4000/do?title=iphone13
 
 This project works absolutely fine locally.
 Majority of my time went in trying to deploy this API which ended up in fruitless endeavour. I tried too hard but couldn't get past the AxiosError. I tried to deploy on multiple sites spending countless hours in debugging but it seems I will be requiring help from someone who's very experienced in this.
-(Find image attached of deployment errors below)
+(Find image attached of deployment errors at the very bottom of this readme)
 
 2) The Web Interface is simple. It just takes input values from users namely title, filter, topN and websites to consider it from. This runs on port 3000
 <img width="1028" alt="web_interface" src="https://github.com/amanrubey/durianpay_assignment/assets/58990863/72fa7f7c-cd61-49a7-9ca2-918a076907a6">
