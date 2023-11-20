@@ -1,6 +1,7 @@
 Createad 1) API and 2) A small web interface to access the api.
 Whole application was made using NodeJs, ExpressJs and Cheerio for scraping.
 The APIs query parameters are title, website, filter, topN. 
+The API Response is JSON which has products array containing title, url_to_product, price, description, total_review_count, ratings and website 
 So an example url to hit the API will be http://localhost:4000/do?title=iphone13&website=flipkart&topN=4&filter=hp
 <img width="1439" alt="hitting_api_directly" src="https://github.com/amanrubey/durianpay_assignment/assets/58990863/f235768c-8f68-4779-b354-a51fbf623d50">
 
