@@ -101,8 +101,7 @@ app.get("/do", async (req, res) => {
     obj.products.splice(n);
 
     const myobj = JSON.stringify(obj);
-    fs.writeFileSync('output.json', myobj, 'utf-8');
-    console.log('JSON file created successfully.');
+
     res.send(myobj)
 });
 
