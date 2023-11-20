@@ -1,7 +1,6 @@
 import express from "express"
 import axios from "axios";
 import cheerio from "cheerio";
-import pretty from "pretty";
 import { log } from "console";
 import fs from "fs";
 import e from "express";
